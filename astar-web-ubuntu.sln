@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AB1868D8-4D27-43F9-8532-2FCBCA3E89B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AStar.Web", "src\AStar.Web\AStar.Web.csproj", "{BD1C71EF-599F-4045-B829-0AE3EBDB2505}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD1C71EF-599F-4045-B829-0AE3EBDB2505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD1C71EF-599F-4045-B829-0AE3EBDB2505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD1C71EF-599F-4045-B829-0AE3EBDB2505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD1C71EF-599F-4045-B829-0AE3EBDB2505}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD1C71EF-599F-4045-B829-0AE3EBDB2505} = {AB1868D8-4D27-43F9-8532-2FCBCA3E89B4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07A0EE19-86CD-40E7-939C-598C86414B73}
+	EndGlobalSection
+EndGlobal
