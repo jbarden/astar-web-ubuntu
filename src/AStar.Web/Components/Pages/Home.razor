@@ -5,22 +5,31 @@
 <h1>Welcome!</h1>
 
 <p>
-    Welcome to AStar Development's Web site. This site is intended as a coding playground and is not a serious site! If you find it on the web (either as a working site, or, more likely, on GitHub), please feel free to share any comments via the "Contact Us" page.
+    Welcome to AStar Development's Web site. This site is intended as a coding playground and is not a serious site! If you find it on the web (either as a working site, or, more likely, as a public project on GitHub / SonarCloud), please feel free to share any comments via the "Contact Us" page.
 </p>
 <div class="info box">
-  <h2>Backend API Status Checks</h2>
+  <h2>Backend Status Checks</h2>
   <div>
 <p>
    &nbsp; 
 </p>
   <div class="info box">
     <h3>Files API Status</h3>
+    <p class="@FilesApiHealthCheckClass">
+        Files Api Health Status: @FilesApiHealthStatus
+    </p>
   </div>
   <div class="info box">
     <h3>Images API Status</h3>
+    <p class="@ImagesApiHealthCheckClass">
+      Images Api Health Status: @ImagesApiHealthStatus
+    </p>
   </div>
   <div class="info box">
     <h3>Database Status</h3>
+    <p class="@DatabaseHealthCheckClass">
+      Database Health Status: @DatabaseHealthStatus
+    </p>
   </div>
   </div>
 </div>

@@ -6,10 +6,7 @@ public class BasicTests : IClassFixture<WebApplicationFactory<Program>>
 {
     private readonly WebApplicationFactory<Program> factory;
 
-    public BasicTests(WebApplicationFactory<Program> factory)
-    {
-        this.factory = factory;
-    }
+    public BasicTests(WebApplicationFactory<Program> factory) => this.factory = factory;
 
     [Theory]
     [InlineData("/")]
@@ -23,6 +20,6 @@ public class BasicTests : IClassFixture<WebApplicationFactory<Program>>
         var response = await client.GetAsync(url);
 
         response.EnsureSuccessStatusCode();
-        response.Content.Headers.ContentType.ToString().Should().Be("text/html; charset=utf-8");
+        response.Content.Headers.ContentType?.ToString().Should().Be("text/html; charset=utf-8");
     }
 }
